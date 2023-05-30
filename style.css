@@ -1,0 +1,103 @@
+body{
+    background-image: url(background.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    overflow-y: hidden;
+}
+.box{
+    height: 25rem;
+    width: 30rem;
+    margin: 23vh auto;
+    border-radius: 6%;
+    box-shadow: 0px 0px 20px 5px rgba(40, 38, 38, 0.15);
+}
+.box-2{
+    margin-left: -28px;   
+}
+.head-background{
+    position: relative;
+    left: -30px;
+    top: -20px;
+}
+h3{
+    position: relative;
+    top: 37px;
+    left: -10px;
+    z-index: 1;
+    color: white;
+}
+.heads{
+    margin-left: 10%;
+    color: coral;
+}
+.To{
+    margin-left: 35%;
+}
+.options{
+    display: inline-block;
+    margin-left: 10%;
+}
+.select-box{
+    height: 40px;
+    font-size: 1rem;
+    width: 22.5rem;
+}
+.select-box:focus{
+    box-shadow: none;
+    border-color: coral;
+}
+.input{
+    width: 22.5rem;
+}
+.input:focus{
+    box-shadow: none;
+    border-color: coral;
+}
+.button{
+    width: 23%;
+    color: white;
+    border-color: coral;
+    background-color: coral;
+}
+.button,#submit{
+    background-color: coral;
+    border: none;
+}
+.button:hover{
+    background-color: coral;
+    border-color: coral;
+}
+.fddi:hover{
+    background-color: coral ;
+}
+.content{
+    margin-top: -25px;
+}
+#options{
+    color: coral;
+    margin-top: 5%;
+}
+#options:focus{
+    background-color: white;
+}
+.result{
+    color: coral;
+}
+@media screen and (max-width: 540px) {
+    html{
+        font-size: 14px;
+    }
+    .box{
+        margin-top: 25vh;
+    }
+    h3{
+        position: relative;
+        top: 32px;
+        left: -10px;
+        z-index: 1;
+        color: white;
+    }
+    .input{
+        width: 22.5rem;
+    }
+}
